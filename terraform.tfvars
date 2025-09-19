@@ -1,0 +1,7 @@
+network_name = "sai-vpc"
+project_id = "emerald-spring-465406-s1"
+region_name = "us-central1"
+sub_name = "subnet-a"
+firewall_name = "allow-all"
+vm_user = "sai"
+zone_name = "us-central1-a"
