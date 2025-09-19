@@ -18,7 +18,7 @@ resource "google_compute_subnetwork" "tf_sub" {
 
 resource "google_compute_firewall" "tf_fire" {
     name = var.firewall_name
-    network = google_compute_network.tf_net.id
+    network = google_compute_network.tf_net.name
     allow {
       ports = ["22","8080"]
       protocol = "tcp"
